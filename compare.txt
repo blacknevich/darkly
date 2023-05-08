@@ -1,0 +1,22 @@
+sql injection basic	-05 (easy database steal)
+advanced		-06 (lots of work) ------------------------------do it
+xss basic		-01 feedback (easy - scrypt alert as a name)
+advanced		-13 (looots of info) ----------------------------do it
+cookies			- 10 (easy set-cookie:)
+spoof curl		- 11 (easy SEO set from site) 
+admin htpasswd		- 02 (robots easy don't save passwords on site)
+bruteforce (member)	- 07 (2 ways)-----------------------------------do it
+file upload		- 09 (medium - need upload instructions)
+redirect		-04 super easy curl change
+guess (hidden file)	- 03 - not easy script---------------------------do it
+survey			- 00 - easy curl > 10
+recover			- 08 - easy hidden type mail change
+
+bonuses understanding
+xss
+sql
+redirect
+bruteforce
+robots.txt -yes
+
+no 12 and 01
