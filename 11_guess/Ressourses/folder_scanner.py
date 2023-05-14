@@ -3,7 +3,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-our_host = 'http://192.168.43.236/.hidden/'
+our_host = 'http://192.168.1.68/.hidden/'
 
 unique_texts = set()
 doc_number = 0
